@@ -6,7 +6,7 @@
   /* ========== Grays ========== */
   --gray-100: hsl(0, 0%, 93%);
   --gray-200: hsl(216, 8%, 88%);
-  --gray-300: hsla(221, 92%, 95%, 0.6);
+  --gray-300: hsla(222, 92%, 95%, 0.6);
 
   /* ========== Blues ========== */
   --blue-900: hsl(235, 41%, 22%);
@@ -21,6 +21,7 @@
   /* ========== UI Elements ========== */
   --header-bg: hsla(0, 0%, 100%, 0.72);
   --link-color: hsl(0, 0%, 19%);
+  --mega-color:hsla(259, 92%, 95%, 0.6);
 }
 
 *,
@@ -192,6 +193,76 @@ ul {
 
 
 /* end-header */
+
+/* mega-menu */
+#show-more-menu {
+  position: relative;
+}
+
+#show-more-menu ul {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: -2.18rem;
+  background-color: var(--color-white);
+  border-block-start: 0.31rem solid var(--yellow-400);
+  border-radius: 0.75rem;
+  padding-block-start: 1.25rem;
+  padding-block-end: 0.62rem;
+  margin-block-start: 1.43rem;
+  width: 7.68rem;
+}
+
+#show-more-menu li {
+  margin: 0;
+  padding-inline: 1.25rem;
+  padding-block: 0.62rem;
+  color: var(--color-black);
+  font-size: 0.8rem;
+}
+
+#show-more-menu li:hover {
+  background-color: var(--mega-color);
+}
+
+#show-product-menu {
+  position: relative;
+}
+
+
+.product-menu {
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: -2.18rem;
+  background-color: var(white);
+  display: flex;
+  justify-content: flex-start;
+  border-top: 0.31rem solid var(--yellow-400);
+   border-radius: 0.75rem;
+   padding-block-start:0.31rem;
+   margin-block-start:1.43rem;
+   width: 23.25rem;
+}
+
+.product-menu a p:first-child {
+  color:var(--color-black);
+  font-size: 0.95rem;
+}
+
+.product-menu a p:last-child {
+  color:var(--color-black);
+  font-size: 0.7rem;
+}
+
+.product-menu a {
+  margin: 0.62rem;
+  display: block;
+  padding: 0.62rem;
+  border-radius: 0.31rem;
+}
+
+/* end-mega-menu */
+
+/* banner */
 
 
 
